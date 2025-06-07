@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{be1c899c-7537-4fad-b918-407a5dbed3d6}</ProjectGuid>
-    <RootNamespace>Chap10</RootNamespace>
+    <ProjectGuid>{3869fdb3-f3fe-4dd2-b62b-38f67f004bfc}</ProjectGuid>
+    <RootNamespace>chap10No1</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>chap10(No2)</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -124,11 +123,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Contact.c" />
-    <ClCompile Include="main.c" />
+    <ClCompile Include="Am01_login.c" />
+    <ClCompile Include="Am03_arr.c" />
+    <ClCompile Include="Am08_cofee.c" />
+    <ClCompile Include="Am13_s.c" />
+    <ClCompile Include="Am18_song.c" />
+    <ClCompile Include="Assignment 1.c" />
+    <ClCompile Include="Assignment 18.c" />
+    <ClCompile Include="Assignment 3.c" />
+    <ClCompile Include="Assignment 8.c" />
+    <ClCompile Include="Assignment13.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Contact.h" />
+    <ClInclude Include="Am01_login.h" />
+    <ClInclude Include="Am03_arr.h" />
+    <ClInclude Include="Am08_coffe.h" />
+    <ClInclude Include="Am13_s.h" />
+    <ClInclude Include="Am18_song.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
